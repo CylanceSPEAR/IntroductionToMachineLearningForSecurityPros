@@ -13,7 +13,7 @@ def visualize(vectors):
     plt.scatter(
         projected_vectors[:, 0],
         projected_vectors[:, 1],
-        zs=projected_vectors[:, 2],
+        c=projected_vectors[:, 2],
         s=200,
     )
     plt.show()
